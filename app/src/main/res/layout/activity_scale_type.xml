@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lxy.zoom.image.ScaleTypeActivity">
+
+    <!--
+    center 原size 居中显示，没有缩放效果，当图片过大时，截取中间的部分显示
+    centerCrop 按比例扩大并居中显示，图片长宽会大于等于view长宽以撑满
+    centerInside 按比例缩小并居中显示，此时 图片小于等于view
+    fitCenter 把图片按比例扩大/缩小到View的宽度，居中显示.start/end 等效果
+    -->
+    <ImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/image_view"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="#3f00"
+        android:src="@mipmap/test_img" />
+
+</RelativeLayout>

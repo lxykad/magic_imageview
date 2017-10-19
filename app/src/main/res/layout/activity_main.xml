@@ -17,8 +17,18 @@
         app:srcCompat="@mipmap/ic_launcher" />
 
     <Button
+        android:id="@+id/bt_big"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goToBigImg" />
+        android:onClick="goToBigImg"
+        android:text="big" />
+
+    <Button
+        android:id="@+id/bt_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goType"
+        android:text="scaleType"
+        app:layout_constraintLeft_toRightOf="@+id/bt_big" />
 
 </android.support.constraint.ConstraintLayout>
