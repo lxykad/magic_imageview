@@ -31,4 +31,12 @@
         android:text="scaleType"
         app:layout_constraintLeft_toRightOf="@+id/bt_big" />
 
+    <Button
+        android:id="@+id/bt_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goShape"
+        android:text="custom"
+        app:layout_constraintLeft_toRightOf="@+id/bt_type" />
+
 </android.support.constraint.ConstraintLayout>

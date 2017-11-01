@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".BigImgActivity" />
-        <activity android:name=".ScaleTypeActivity"></activity>
+        <activity android:name=".ScaleTypeActivity" />
+        <activity android:name=".ShapeActivity"></activity>
     </application>
 
 </manifest>

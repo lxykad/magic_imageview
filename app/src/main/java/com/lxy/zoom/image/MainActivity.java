@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void goType(View view) {
         startActivity(new Intent(view.getContext(), ScaleTypeActivity.class));
     }
+
+    public void goShape(View view) {
+        startActivity(new Intent(view.getContext(), ShapeActivity.class));
+    }
 }
