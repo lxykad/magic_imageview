@@ -16,6 +16,7 @@ import android.view.ViewTreeObserver;
 
 /**
  * Created by lxy on 2017/10/10.
+ * 自定义首饰缩放的imageview
  */
 
 public class ZoomImageView extends AppCompatImageView implements ViewTreeObserver.OnGlobalLayoutListener,
