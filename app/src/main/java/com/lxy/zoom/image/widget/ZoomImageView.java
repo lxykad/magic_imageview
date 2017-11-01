@@ -1,7 +1,6 @@
 package com.lxy.zoom.image.widget;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
