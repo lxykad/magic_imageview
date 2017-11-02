@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goGroup(View view) {
-        Toast.makeText(view.getContext(), "group", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(view.getContext(), AnimationActivity.class));
     }
 }
