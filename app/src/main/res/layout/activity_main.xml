@@ -38,5 +38,12 @@
         android:onClick="goShape"
         android:text="custom"
         app:layout_constraintLeft_toRightOf="@+id/bt_type" />
+    <Button
+        android:id="@+id/bt_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goGroup"
+        android:text="group"
+        app:layout_constraintLeft_toRightOf="@+id/bt_shape" />
 
 </android.support.constraint.ConstraintLayout>
